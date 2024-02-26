@@ -19,6 +19,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body class="homepage">
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -217,20 +219,20 @@
         <div class="inquiry-item col-md-6">
           <h2><b>Hablemos de Elegancia</b></h2>
           <p>Contacta con nosotros y da el primer paso para crear el espacio de tus sueños.</p>
-          <form id="form" action="{{route('correo')}}" class="form-group flex-wrap" method="POST">
+          <form action="{{url('correo')}}" class="form-group flex-wrap" method="POST">
             @csrf
             <div class="form-input col-lg-12 d-flex mb-3">
-              <input type="text" name="nombre" placeholder="Nombre" class="form-control ps-3 me-3">
-              <input type="text" name="email" placeholder="Email" class="form-control ps-3">
+              <input type="text" name="nombre" placeholder="Nombre" class="form-control ps-3 me-3" required>
+              <input type="text" name="email" placeholder="Email" class="form-control ps-3" required>
             </div>
             <div class="col-lg-12 mb-3">
-              <input type="text" name="celular" placeholder="Celular" class="form-control ps-3">
+              <input type="text" name="celular" placeholder="Celular" class="form-control ps-3" required>
             </div>
             <div class="col-lg-12 mb-3">
-              <textarea name="mensaje" placeholder="Mensaje" class="form-control ps-3" rows="8"></textarea>
+              <textarea name="mensaje" placeholder="Mensaje" class="form-control ps-3" rows="8" required></textarea>
             </div>
             <div class="d-grid">
-              <button class="btn btn-lg text-uppercase btn-rounded-none" style="background-color: #141722;color:white;">Enviar</button>
+              <button type="submit" class="btn btn-lg text-uppercase btn-rounded-none" style="background-color: #141722;color:white;">Enviar</button>
             </div>
           </form>
         </div>
@@ -358,5 +360,17 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="{{asset('js/script.js')}}"></script>
+
+  @if(Session::has('flash_message_success'))
+    <script>
+      Swal.fire({
+        position: "center",
+        icon: "success",
+        title: "{!! session('flash_message_success')  !!}",
+        showConfirmButton: false,
+        timer: 1500
+      });
+    </script>
+  @endif
 </body>
 </html>

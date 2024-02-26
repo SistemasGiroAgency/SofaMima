@@ -21,7 +21,7 @@ class EMAILController extends Controller
             $msg->to($para);
         });
         
-        return view('contacto');
+        return redirect('/contacto')->with('flash_message_success','El correo fue enviado');
     }
 
     public function preguntas(Request $request)
@@ -37,6 +37,7 @@ class EMAILController extends Controller
             $msg->subject('Un cliente tiene una pregunta');
             $msg->to($para);
         });
-        return view('faqs');
+        
+        return redirect('/faqs')->with('flash_message_success','La pregunta fue enviada');
     }
 }
