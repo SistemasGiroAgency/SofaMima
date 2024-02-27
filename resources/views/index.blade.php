@@ -359,7 +359,7 @@
                   <img src="images/Gary.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/2/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 my-2 rounded-3" style="color: white;">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">GARY</span>
                   </div>
                 </a>
@@ -373,7 +373,7 @@
                   <img src="images/Modulos.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/3/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 my-2 rounded-3" style="color: white;">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">MODULOS</span>
                   </div>
                 </a>
@@ -387,7 +387,7 @@
                   <img src="images/Toronto.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/4/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 my-2 rounded-3" style="color: white;">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">TORONTO</span>
                   </div>
                 </a>
@@ -401,7 +401,7 @@
                   <img src="images/Torreon.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/5/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 my-2 rounded-3" style="color: white;">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">TORREÓN</span>
                   </div>
                 </a>
@@ -415,7 +415,7 @@
                   <img src="images/Viena.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/6/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 my-2 rounded-3" style="color: white;">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">VIENA</span>
                   </div>
                 </a>
@@ -617,7 +617,7 @@
                   <img src="images/Set de mesas de marmol.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/13/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 my-2 rounded-3" style="color: white;">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">MESAS DE MÁRMOL</span>
                   </div>
                 </a>
@@ -631,7 +631,7 @@
                   <img src="images/Set Negro de mesas marmol.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/14/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 my-2 rounded-3" style="color: white;">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">MESAS DE MÁRMOL</span>
                   </div>
                 </a>
@@ -645,7 +645,7 @@
                   <img src="images/Sillon.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/15/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 my-2 rounded-3" style="color: white;">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">SILLÓN</span>
                   </div>
                 </a>
@@ -659,7 +659,7 @@
                   <img src="images/Recamara.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/9/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 my-2 rounded-3" style="color: white;">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">RECÁMARA</span>
                   </div>
                 </a>
@@ -673,7 +673,7 @@
                   <img src="images/Mesas Auxiliares.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/12/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 my-2 rounded-3" style="color: white;">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">MESAS AUXILIARES</span>
                   </div>
                 </a>
