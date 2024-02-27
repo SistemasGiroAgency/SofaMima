@@ -280,7 +280,7 @@
         <div class="col-md-3 col-sm-6">
           <div class="footer-menu footer-menu-004 border-animation-left">
             <h5 class="widget-title mb-4">Contáctanos</h5>
-            <p>¿Tienes alguna pregunta o sugerencia? <a href="mailto:hola@sofamima.com" class="item-anchor">hola@sofamima.com</a></p>
+            <p>¿Tienes alguna pregunta o sugerencia? <a href="mailto:contacto@sofamima.com" class="item-anchor">contacto@sofamima.com</a></p>
             <p>¿Necesitas support? <br> <a href="tel:+52 (81) 2428 2187" class="item-anchor">+52 (81) 2428 2187</a>
             </p>
           </div>

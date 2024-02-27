@@ -249,7 +249,7 @@
         <div class="swiper-slide d-flex align-items-center jarallax">
           <img src="images/sofa-gris-salon-blanco (1).jpg" class="jarallax-img" alt="slideshow">
           <div class="banner-content w-100">
-            <div class="container">
+            <div class="container" style="max-width: fit-content;">
               <div class="row">
                 <div class="col-md-10 offset-md-1 palabrasmain">
                   <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Elegancia Duradera</h2>
@@ -353,7 +353,7 @@
       <div data-aos="fade-in">
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5" style="display: flex;align-items:center;justify-content:center;">
           <div class="col">
-            <div class="product-item hover-effect-slide">
+            <div class="product-item hover-effect-slide tarjetaresponsive">
               <div class="image-holder position-relative">
                 <a href="/2/singleproducts">
                   <img src="images/Gary.webp" alt="categories" class="product-image img-fluid">
@@ -367,7 +367,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="product-item hover-effect-slide">
+            <div class="product-item hover-effect-slide tarjetaresponsive">
               <div class="image-holder position-relative">
                 <a href="/3/singleproducts">
                   <img src="images/Modulos.webp" alt="categories" class="product-image img-fluid">
@@ -381,7 +381,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="product-item hover-effect-slide">
+            <div class="product-item hover-effect-slide tarjetaresponsive">
               <div class="image-holder position-relative">
                 <a href="/4/singleproducts">
                   <img src="images/Toronto.webp" alt="categories" class="product-image img-fluid">
@@ -395,7 +395,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="product-item hover-effect-slide">
+            <div class="product-item hover-effect-slide tarjetaresponsive">
               <div class="image-holder position-relative">
                 <a href="/5/singleproducts">
                   <img src="images/Torreon.webp" alt="categories" class="product-image img-fluid">
@@ -409,7 +409,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="product-item hover-effect-slide">
+            <div class="product-item hover-effect-slide tarjetaresponsive">
               <div class="image-holder position-relative">
                 <a href="/6/singleproducts">
                   <img src="images/Viena.webp" alt="categories" class="product-image img-fluid">
@@ -877,7 +877,7 @@
         <div class="col-md-3 col-sm-6">
           <div class="footer-menu footer-menu-004 border-animation-left">
             <h5 class="widget-title mb-4">Contáctanos</h5>
-            <p>¿Tienes alguna pregunta o sugerencia? <a href="mailto:hola@sofamima.com" class="item-anchor">hola@sofamima.com</a></p>
+            <p>¿Tienes alguna pregunta o sugerencia? <a href="mailto:contacto@sofamima.com" class="item-anchor">contacto@sofamima.com</a></p>
             <p>¿Necesitas support? <br> <a href="tel:+52 (81) 2428 2187" class="item-anchor">+52 (81) 2428 2187</a>
             </p>
           </div>
@@ -941,6 +941,23 @@
           $(this).text(textoCortado);
       });
     }); 
+  </script>
+
+  <script>
+    function toggleClassOnResize(){
+      if (window.matchMedia("(max-width: 992px)").matches) {
+          Array.from(document.getElementsByClassName("tarjetaresponsive")).forEach(element => {
+              element.classList.remove("hover-effect-slide");
+          });
+      } else {
+          Array.from(document.getElementsByClassName("tarjetaresponsive")).forEach(element => {
+              element.classList.add("hover-effect-slide");
+          });
+      }
+    }
+
+    toggleClassOnResize();
+    window.addEventListener('resize', toggleClassOnResize);
   </script>
 
 </body>
