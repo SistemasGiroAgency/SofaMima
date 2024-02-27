@@ -40,4 +40,21 @@ class EMAILController extends Controller
         
         return redirect('/faqs')->with('flash_message_success','La pregunta fue enviada');
     }
+
+    public function correolanding(Request $request)
+    {
+        $nombre = $request->input('nombre');
+        $email = $request->input('email');
+        $celular = $request->input('celular');
+        $mensaje = $request->input('mensaje');
+        $para = 'contacto@sofamima.com';
+
+        Mail::send('CORREO.correolanding', $request->all(), function($msg) use($nombre, $email, $celular, $mensaje, $para){
+            $msg->from($email, $nombre, $celular, $mensaje);
+            $msg->subject('Un cliente quiere contactarnos');
+            $msg->to($para);
+        });
+        
+        return redirect('/landing')->with('flash_message_success','El correo fue enviado');
+    }
 }

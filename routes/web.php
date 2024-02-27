@@ -14,6 +14,7 @@ Route::get('/wishlist', [App\Http\Controllers\SofaController::class, 'wishlist']
 
 Route::post('/correo', [App\Http\Controllers\EMAILController::class, 'correo']);
 Route::post('/preguntas', [App\Http\Controllers\EMAILController::class, 'preguntas']);
+Route::post('/correolanding', [App\Http\Controllers\EMAILController::class, 'correolanding']);
 
 Route::get('CRUD/admin', [App\Http\Controllers\Admin::class, 'admin'])->name('CRUD.admin');
 Route::post('CRUD', [App\Http\Controllers\CRUDNOTAS::class, 'store'])->name('CRUD.store');
@@ -28,3 +29,5 @@ Route::get('CATALOGO/createdos', [App\Http\Controllers\CRUDCATALOGO::class, 'cre
 Route::get('CATALOGO/{id}/editdos', [App\Http\Controllers\CRUDCATALOGO::class, 'editdos'])->name('CATALOGO.editdos');
 Route::put('CATALOGO/{id}', [App\Http\Controllers\CRUDCATALOGO::class, 'updatedos'])->name('CATALOGO.updatedos');
 Route::delete('CATALOGO/{id}', [App\Http\Controllers\CRUDCATALOGO::class, 'destroydos'])->name('CATALOGO.destroydos');
+
+Route::get('/landing', [App\Http\Controllers\Landing::class, 'landing']);
