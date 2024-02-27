@@ -611,7 +611,7 @@
       <div data-aos="fade-in">
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 d-flex align-items-center justify-content-center">
           <div class="col">
-            <div class="product-item hover-effect-slide">
+            <div class="product-item hover-effect-slide tarjetaresponsive">
               <div class="image-holder position-relative">
                 <a href="/13/singleproducts">
                   <img src="images/Set de mesas de marmol.webp" alt="categories" class="product-image img-fluid">
@@ -625,7 +625,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="product-item hover-effect-slide">
+            <div class="product-item hover-effect-slide tarjetaresponsive">
               <div class="image-holder position-relative">
                 <a href="/14/singleproducts">
                   <img src="images/Set Negro de mesas marmol.webp" alt="categories" class="product-image img-fluid">
@@ -639,7 +639,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="product-item hover-effect-slide">
+            <div class="product-item hover-effect-slide tarjetaresponsive">
               <div class="image-holder position-relative">
                 <a href="/15/singleproducts">
                   <img src="images/Sillon.webp" alt="categories" class="product-image img-fluid">
@@ -653,7 +653,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="product-item hover-effect-slide">
+            <div class="product-item hover-effect-slide tarjetaresponsive">
               <div class="image-holder position-relative">
                 <a href="/9/singleproducts">
                   <img src="images/Recamara.webp" alt="categories" class="product-image img-fluid">
@@ -667,7 +667,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="product-item hover-effect-slide">
+            <div class="product-item hover-effect-slide tarjetaresponsive">
               <div class="image-holder position-relative">
                 <a href="/12/singleproducts">
                   <img src="images/Mesas Auxiliares.webp" alt="categories" class="product-image img-fluid">
