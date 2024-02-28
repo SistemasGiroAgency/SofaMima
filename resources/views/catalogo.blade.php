@@ -20,6 +20,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body class="homepage">
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <defs>
@@ -173,13 +174,13 @@
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
           @foreach ($producto as $productos)
           <div class="col">
-            <div class="product-item hover-effect-slide">
+            <div class="product-item hover-effect-slide tarjetaresponsive">
               <div class="image-holder position-relative">
                 <a id="{{$productos->id}}" href="/{{$productos->id}}/singleproducts">
                   <img src="{{asset('images/admin/' . $productos->imguno)}}" alt="categories" class="product-image img-fluid">
                 </a>
                 <a id="{{$productos->id}}" href="/{{$productos->id}}/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 my-2 rounded-3 tarjetaresponsive" style="color: white;">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">{{$productos->nombre}}</span>
                   </div>
                 </a>
@@ -312,5 +313,25 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="{{asset('js/script.js')}}"></script>
+
+  <script>
+    function toggleClassOnResize(){
+      if (window.matchMedia("(max-width: 992px)").matches) {
+          Array.from(document.getElementsByClassName("tarjetaresponsive")).forEach(element => {
+              element.classList.remove("hover-effect-slide");
+              element.classList.add("my-2");
+          });
+      } else {
+          Array.from(document.getElementsByClassName("tarjetaresponsive")).forEach(element => {
+              element.classList.add("hover-effect-slide");
+              element.classList.remove("my-2");
+          });
+      }
+    }
+
+    toggleClassOnResize();
+    window.addEventListener('resize', toggleClassOnResize);
+  </script>
+
 </body>
 </html>

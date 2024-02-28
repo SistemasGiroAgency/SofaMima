@@ -59,6 +59,14 @@ body {
   --bs-link-hover-color-rgb: 17, 17, 17;
 }
 
+.web{
+  display: block;
+}
+
+.responsive{
+  display: none;
+}
+
 .swiper-pagination-bullet-active{
   background: white !important;
 }
@@ -1526,5 +1534,13 @@ a.btn-link.text-light:after {
 
   .responsiveabouttittle{
     text-align: center;
+  }
+
+  .web{
+    display: none;
+  }
+  
+  .responsive{
+    display: block;
   }
 }
