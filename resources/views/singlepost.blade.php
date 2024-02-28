@@ -113,11 +113,21 @@
 
   <nav class="navbar navbar-expand-lg text-uppercase fs-6 p-3 border-bottom fixed-top bg-white">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/"><img src="{{asset('images/logosofamimanegro.svg')}}" width="80%" height="45" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+      <a class="web navbar-brand" href="/"><img src="{{asset('images/logosofamimanegro.svg')}}" width="80%" height="45" alt="logo"></a>
+      <button class="web navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar">
             <div class="opennavall"></div>
       </button>
+
+      <div class="col-8 responsive">
+        <a class="navbar-brand" href="/"><img src="{{asset('images/logosofamimanegro.svg')}}" width="80%" height="45" alt="logo"></a>
+      </div>
+      <div class="col-4 responsive d-flex align-items-center justify-content-end">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar">
+              <div class="opennavall"></div>
+        </button>
+      </div>
 
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
@@ -154,7 +164,6 @@
           </ul>
         </div>
       </div>
-
 
     </div>
   </nav>
