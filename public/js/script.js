@@ -101,6 +101,10 @@
     })
 
     var swiper = new Swiper(".testimonial-swiper", {
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
       grabCursor: true,
       centeredSlides: true,
       loop: true,

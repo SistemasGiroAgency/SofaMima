@@ -48,8 +48,16 @@
     border-color: #141722;
   }
 
+  .palabrasmain{
+    text-align: center;
+    position: relative; 
+    bottom: 15vh;
+  }
+
   .palabrasmain h2{
+    height: 15vh;
     color: #141722;
+    font-size: 9vh
   }
 
   .palabrasmain p{
@@ -105,6 +113,26 @@
 
   .offcanvas-titleblanco{
     color: white;
+  }
+
+  .responsivep{
+    margin: 0;
+  }
+
+  .slide-in .swiper-slide .banner-content .btn{
+    transition-delay: 800ms !important;
+  }
+
+  .testimonial-swiper .testimonial-item blockquote p{
+    width: 91.66666667%;
+    margin: auto;
+  }
+
+  @media only screen and (max-width: 992px){
+    .palabrasmain{
+      text-align: initial;
+      position: static; 
+    }
   }
 </style>
 
@@ -247,12 +275,12 @@
     <div class="slideshow slide-in arrow-absolute" style="height: 100vh;">
       <div class="swiper-wrapper">
         <div class="swiper-slide d-flex align-items-center jarallax">
-          <img src="images/sofa-gris-salon-blanco (1).jpg" class="jarallax-img" alt="slideshow">
+          <img src="images/Slider 1.jpg" class="jarallax-img" alt="slideshow">
           <div class="banner-content w-100">
             <div class="container" style="max-width: fit-content;">
               <div class="row">
-                <div class="col-md-10 offset-md-1 palabrasmain">
-                  <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Elegancia Duradera</h2>
+                <div class="col-md-10 offset-md-1 palabrasmain tx-cn">
+                  <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2"><b>Elegancia Duradera</b></h2>
                   <p class="caption responsivep">Combina tendencias contemporáneas con la resistencia del tiempo, asegurando que cada pieza sea tan atemporal como sofisticada.</p>
                   <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
                 </div>
@@ -261,13 +289,13 @@
           </div>
         </div>
         <div class="swiper-slide d-flex align-items-center jarallax">
-          <img src="images/sofa-gris-interior-sala-estar-blanca-espacio-copia-3d-rendering (2).jpg" class="jarallax-img" alt="slideshow">
+          <img src="images/Slider 1.jpg" class="jarallax-img" alt="slideshow">
           <div class="banner-content w-100">
             <div class="container">
               <div class="row">
                 <div class="col-md-10 offset-md-1 palabrasmain">
                   <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Confort en cada detalle.</h2>
-                  <p class="caption responsivep">Selección meticulosa de materiales de alta calidad, diseño enfocado en el confort, para una experiencia de lujo.</p>
+                  <p class="caption responsivep">Selección meticulosa de materiales de alta calidad, diseño enfocado en el confort, <br> para una experiencia de lujo.</p>
                   <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
                 </div>
               </div>
@@ -275,13 +303,13 @@
           </div>
         </div>
         <div class="swiper-slide d-flex align-items-center jarallax">
-          <img src="images/diseno-interiores-marcos-fotos-comodo-sofa.jpg" class="jarallax-img" alt="slideshow">
+          <img src="images/Slider 1.jpg" class="jarallax-img" alt="slideshow">
           <div class="banner-content w-100">
             <div class="container">
               <div class="row">
                 <div class="col-md-10 offset-md-1 palabrasmain">
                   <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Diseños Únicos</h2>
-                  <p class="caption responsivep">Cada proyecto es una obra de arte, diseñado para crear espacios únicos y reflejar tu personalidad.</p>
+                  <p class="caption responsivep">Cada proyecto es una obra de arte, <br> diseñado para crear espacios únicos y reflejar tu personalidad.</p>
                   <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
                 </div>
               </div>
@@ -359,7 +387,7 @@
                   <img src="images/Gary.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/2/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 rounded-3" style="padding:5px">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">GARY</span>
                   </div>
                 </a>
@@ -373,7 +401,7 @@
                   <img src="images/Modulos.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/3/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 rounded-3" style="padding:5px">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">MODULOS</span>
                   </div>
                 </a>
@@ -387,7 +415,7 @@
                   <img src="images/Toronto.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/4/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 rounded-3" style="padding:5px">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">TORONTO</span>
                   </div>
                 </a>
@@ -401,7 +429,7 @@
                   <img src="images/Torreon.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/5/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 rounded-3" style="padding:5px">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">TORREÓN</span>
                   </div>
                 </a>
@@ -415,7 +443,7 @@
                   <img src="images/Viena.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/6/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 rounded-3" style="padding:5px">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">VIENA</span>
                   </div>
                 </a>
@@ -605,7 +633,7 @@
     <div class="container-fluid">
       <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
         <h4 class="text-uppercase"><b>Otros</b></h4>
-        <a href="/catalogo" class="btn-link">Ve Que Todos Quieren</a>
+        <a href="/catalogo" class="btn-link">Ve Lo Que Todos Quieren</a>
       </div>
 
       <div data-aos="fade-in">
@@ -617,7 +645,7 @@
                   <img src="images/Set de mesas de marmol.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/13/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 rounded-3" style="padding:5px">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">MESAS DE MÁRMOL</span>
                   </div>
                 </a>
@@ -631,7 +659,7 @@
                   <img src="images/Set Negro de mesas marmol.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/14/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 rounded-3" style="padding:5px">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">MESAS DE MÁRMOL</span>
                   </div>
                 </a>
@@ -645,7 +673,7 @@
                   <img src="images/Sillon.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/15/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 rounded-3" style="padding:5px">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">SILLÓN</span>
                   </div>
                 </a>
@@ -659,7 +687,7 @@
                   <img src="images/Recamara.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/9/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 rounded-3" style="padding:5px">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">RECÁMARA</span>
                   </div>
                 </a>
@@ -673,7 +701,7 @@
                   <img src="images/Mesas Auxiliares.webp" alt="categories" class="product-image img-fluid">
                 </a>
                 <a href="/12/singleproducts">
-                  <div class="btn bg-black w-100 mt-2 rounded-3" style="color: white;">
+                  <div class="btn bg-black w-100 mt-2 rounded-3" style="padding:5px">
                     <span class="text-uppercase fs-5 mt-3" style="color: white;">MESAS AUXILIARES</span>
                   </div>
                 </a>
@@ -878,7 +906,7 @@
           <div class="footer-menu footer-menu-004 border-animation-left">
             <h5 class="widget-title mb-4">Contáctanos</h5>
             <p>¿Tienes alguna pregunta o sugerencia? <a href="mailto:contacto@sofamima.com" class="item-anchor">contacto@sofamima.com</a></p>
-            <p>¿Necesitas support? <br> <a href="tel:+52 (81) 2428 2187" class="item-anchor">+52 (81) 2428 2187</a>
+            <p>¿Necesitas ayuda? <br> <a href="tel:+52 (81) 2428 2187" class="item-anchor">+52 (81) 2428 2187</a>
             </p>
           </div>
         </div>

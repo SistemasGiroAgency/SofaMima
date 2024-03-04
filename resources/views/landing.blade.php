@@ -104,12 +104,18 @@
   .titulo{
     font-size: 5vh;
     margin-top: 4vh;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
   }
   
   .forms{
     margin: 2vw;
     padding: 3vh;
+  }
+
+  .testimonial-swiper .testimonial-item blockquote p{
+    font-size: 2.7vh;
+    width: 83.33333333%;
+    margin: auto;
   }
 </style>
 
@@ -429,7 +435,7 @@
           </div>
         </div>
       </div>
-      <div class="testimonial-swiper-pagination d-flex justify-content-center pb-5"></div>
+      <div class="testimonial-swiper-pagination d-flex justify-content-center pb-4 mt-4"></div>
     </div>
   </section>
   
@@ -440,7 +446,7 @@
           <div class="footer-menu footer-menu-004 border-animation-left" style="text-align:center">
             <h5 class="widget-title mb-4">Contáctanos</h5>
             <p>¿Tienes alguna pregunta o sugerencia? <a href="mailto:hola@sofamima.com" class="item-anchor">hola@sofamima.com</a></p>
-            <p>¿Necesitas support? <br> <a href="tel:+52 (81) 2428 2187" class="item-anchor">+52 (81) 2428 2187</a>
+            <p>¿Necesitas ayuda? <br> <a href="tel:+52 (81) 2428 2187" class="item-anchor">+52 (81) 2428 2187</a>
             </p>
           </div>
         </div>
@@ -497,6 +503,7 @@
       var swiper = new Swiper(".slideshow", {
         autoplay: {
           delay: 4000,
+          disableOnInteraction: false,
         },
         slidesPerView: col,
         spaceBetween: space,
@@ -512,6 +519,20 @@
         },
       });
     });
+
+    $('.autoavance').each(function(){
+      var swiper = new Swiper(".autoavance", {
+        autoplay: {
+          delay: 4000,
+        },
+        speed: 1000,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    })
   </script>
 
   @if(Session::has('flash_message_success'))
