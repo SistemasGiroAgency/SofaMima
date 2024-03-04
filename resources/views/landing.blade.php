@@ -48,8 +48,16 @@
     border-color: #141722;
   }
 
+  .palabrasmain{
+    text-align: center;
+    position: relative; 
+    bottom: 15vh;
+  }
+
   .palabrasmain h2{
+    height: 15vh;
     color: #141722;
+    font-size: 9vh
   }
 
   .palabrasmain p{
@@ -116,6 +124,17 @@
     font-size: 2.7vh;
     width: 83.33333333%;
     margin: auto;
+  }
+
+  .slide-in .swiper-slide .banner-content .btn{
+    transition-delay: 800ms !important;
+  }
+
+  @media only screen and (max-width: 992px){
+    .palabrasmain{
+      text-align: initial;
+      position: static; 
+    }
   }
 </style>
 
@@ -257,42 +276,42 @@
               <div class="slideshow slide-in arrow-absolute" style="height: 100vh;">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide d-flex align-items-center jarallax">
-                    <img src="images/sofa-gris-salon-blanco (1).jpg" class="jarallax-img" alt="slideshow">
+                    <img src="images/slider 1.jpg" class="jarallax-img" alt="slideshow">
                     <div class="banner-content w-100">
                       <div class="container" style="max-width: fit-content">
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Elegancia Duradera</h2>
                             <p class="caption responsivep">Combina tendencias contemporáneas con la resistencia del tiempo, asegurando que cada pieza sea tan atemporal como sofisticada.</p>
-                            <a href="/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
+                            <a href="/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="swiper-slide d-flex align-items-center jarallax">
-                    <img src="images/sofa-gris-interior-sala-estar-blanca-espacio-copia-3d-rendering (2).jpg" class="jarallax-img" alt="slideshow">
+                    <img src="images/slider 2.jpg" class="jarallax-img" alt="slideshow">
                     <div class="banner-content w-100">
                       <div class="container">
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Confort en cada detalle.</h2>
                             <p class="caption responsivep">Selección meticulosa de materiales de alta calidad, diseño enfocado en el confort, para una experiencia de lujo.</p>
-                            <a href="/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
+                            <a href="/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="swiper-slide d-flex align-items-center jarallax">
-                    <img src="images/diseno-interiores-marcos-fotos-comodo-sofa.jpg" class="jarallax-img" alt="slideshow">
+                    <img src="images/slider 3.jpg" class="jarallax-img" alt="slideshow">
                     <div class="banner-content w-100">
                       <div class="container">
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Diseños Únicos</h2>
                             <p class="caption responsivep">Cada proyecto es una obra de arte, diseñado para crear espacios únicos y reflejar tu personalidad.</p>
-                            <a href="/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
+                            <a href="/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
                           </div>
                         </div>
                       </div>

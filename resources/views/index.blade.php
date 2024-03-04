@@ -289,7 +289,7 @@
           </div>
         </div>
         <div class="swiper-slide d-flex align-items-center jarallax">
-          <img src="images/Slider 1.jpg" class="jarallax-img" alt="slideshow">
+          <img src="images/Slider 2.jpg" class="jarallax-img" alt="slideshow">
           <div class="banner-content w-100">
             <div class="container">
               <div class="row">
@@ -303,7 +303,7 @@
           </div>
         </div>
         <div class="swiper-slide d-flex align-items-center jarallax">
-          <img src="images/Slider 1.jpg" class="jarallax-img" alt="slideshow">
+          <img src="images/Slider 3.jpg" class="jarallax-img" alt="slideshow">
           <div class="banner-content w-100">
             <div class="container">
               <div class="row">
