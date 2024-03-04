@@ -57,7 +57,7 @@
   .palabrasmain h2{
     height: 15vh;
     color: #141722;
-    font-size: 9vh
+    font-size: 9vh;
   }
 
   .palabrasmain p{
@@ -276,7 +276,7 @@
               <div class="slideshow slide-in arrow-absolute" style="height: 100vh;">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide d-flex align-items-center jarallax">
-                    <img src="images/slider 1.jpg" class="jarallax-img" alt="slideshow">
+                    <img src="{{asset('images/slider 1.jpg')}}" class="jarallax-img" alt="slideshow">
                     <div class="banner-content w-100">
                       <div class="container" style="max-width: fit-content">
                         <div class="row">
@@ -290,7 +290,7 @@
                     </div>
                   </div>
                   <div class="swiper-slide d-flex align-items-center jarallax">
-                    <img src="images/slider 2.jpg" class="jarallax-img" alt="slideshow">
+                    <img src="{{asset('images/slider 2.jpg')}}" class="jarallax-img" alt="slideshow">
                     <div class="banner-content w-100">
                       <div class="container">
                         <div class="row">
@@ -304,7 +304,7 @@
                     </div>
                   </div>
                   <div class="swiper-slide d-flex align-items-center jarallax">
-                    <img src="images/slider 3.jpg" class="jarallax-img" alt="slideshow">
+                    <img src="{{asset('images/slider 3.jpg')}}" class="jarallax-img" alt="slideshow">
                     <div class="banner-content w-100">
                       <div class="container">
                         <div class="row">

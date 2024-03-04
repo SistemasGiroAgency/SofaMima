@@ -57,7 +57,7 @@
   .palabrasmain h2{
     height: 15vh;
     color: #141722;
-    font-size: 9vh
+    font-size: 9vh;
   }
 
   .palabrasmain p{
