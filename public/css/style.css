@@ -292,7 +292,7 @@ a {
 .slide-in .swiper-slide .banner-content p,
 .slide-in .swiper-slide .banner-content .btn {
   opacity: 0;
-  transform: translate3d(0, 50px, 0);
+  transform: translate3d(0, 20px, 0);
   transition: opacity 0.6s var(--custom-easing), transform 0.6s var(--custom-easing);
 }
 

@@ -62,7 +62,7 @@
 
   .palabrasmain h2{
     color: #141722;
-    font-size: 8vh;
+    font-size: 7vh;
   }
 
   .palabrasmain p{
@@ -122,10 +122,6 @@
 
   .responsivep{
     margin: 0;
-  }
-
-  .slide-in .swiper-slide .banner-content .btn{
-    transition-delay: 800ms !important;
   }
 
   .testimonial-swiper .testimonial-item blockquote p{

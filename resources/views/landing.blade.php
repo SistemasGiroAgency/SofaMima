@@ -134,10 +134,6 @@
     margin: auto;
   }
 
-  .slide-in .swiper-slide .banner-content .btn{
-    transition-delay: 800ms !important;
-  }
-
   @media only screen and (max-width: 992px){
     .palabrasmain{
       text-align: initial;
@@ -233,28 +229,7 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5 pe-3">
             <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">Catálogo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">Sobre nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">Blog</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdownPages" data-bs-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Contacto</a>
-              <ul class="dropdown-menu list-unstyled border p-3" aria-labelledby="dropdownPages">
-                <li>
-                  <a href="/" class="dropdown-item item-anchor">Contacto</a>
-                </li>
-                <li>
-                  <a href="/" class="dropdown-item item-anchor">Preguntas F.</a>
-                </li>
-              </ul>
+              <a class="nav-link" href="/">Página Principal</a>
             </li>
           </ul>
         </div>
@@ -272,11 +247,16 @@
                     <img src="{{asset('images/Slider 1.jpg')}}" class="jarallax-img" alt="slideshow">
                     <div class="banner-content w-100">
                       <div class="container" style="max-width: fit-content">
-                        <div class="row">
-                          <div class="col-md-10 offset-md-1 palabrasmain">
+                        <div class="row align-items-center justify-content-center">
+                          <div class="col-md-10 offset-md-1 palabrasmain" style="margin: auto;">
                             <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2">Elegancia Duradera</h2></div>
                             <p class="caption responsivep">Combina tendencias contemporáneas con la resistencia del tiempo, asegurando que cada pieza sea tan atemporal como sofisticada.</p>
-                            <a href="/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
+                            <a href="/3/singleproducts" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
+                          </div>
+                        </div>
+                        <div class="row d-flex align-items-end justify-content-initial">
+                          <div class="col-4" style="position: relative; top:25vh; left:2vw;">
+                            <h2 class="roboto-bold text-uppercase txt-fx slide-up">Sala Modulos</h2>
                           </div>
                         </div>
                       </div>
@@ -290,7 +270,12 @@
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Confort en cada detalle</div></h2></div>
                             <p class="caption responsivep">Selección meticulosa de materiales de alta calidad, diseño enfocado en el confort, <br> para una experiencia de lujo.</p>
-                            <a href="/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
+                            <a href="/1/singleproducts" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
+                          </div>
+                        </div>
+                        <div class="row d-flex align-items-end justify-content-initial">
+                          <div class="col-4" style="position: relative; top:25vh; left:2vw;">
+                            <h2 class="roboto-bold text-uppercase txt-fx slide-up">Sala Córdoba</h2>
                           </div>
                         </div>
                       </div>
@@ -304,7 +289,12 @@
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Diseños Únicos</div></h2></div>
                             <p class="caption responsivep">Cada proyecto es una obra de arte, <br> diseñado para crear espacios únicos y reflejar tu personalidad.</p>
-                            <a href="/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
+                            <a href="/5/singleproducts" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
+                          </div>
+                        </div>
+                        <div class="row d-flex align-items-end justify-content-initial">
+                          <div class="col-4" style="position: relative; top:25vh; left:2vw;">
+                            <h2 class="roboto-bold text-uppercase txt-fx slide-up" style="color: white">Sala Torreón</h2>
                           </div>
                         </div>
                       </div>
@@ -356,7 +346,7 @@
                 <img src="images/Salas.webp" alt="categories" class="jarallax-img img-fluid">
                 <div class="category-content position-absolute bottom-0 p-5 text-uppercase">
                   <h4 class="section-title text-white"><b>Salas</b></h4>
-                  <a href="/" class="text-white btn-link">Adquiera Hoy</a>
+                  <a href="/catalogo" class="text-white btn-link">Adquiera Hoy</a>
                 </div>
               </div>
             </div>
@@ -365,7 +355,7 @@
                 <img src="images/Sofa.webp" alt="categories" class="jarallax-img img-fluid">
                 <div class="category-content position-absolute bottom-0 p-5 text-uppercase">
                   <h4 class="section-title text-white"><b>Sofás</b></h4>
-                  <a href="/" class="text-white btn-link">Adquiera Hoy</a>
+                  <a href="/catalogo" class="text-white btn-link">Adquiera Hoy</a>
                 </div>
               </div>
             </div>
@@ -374,7 +364,7 @@
                 <img src="images/Comedores.webp" alt="categories" class="jarallax-img img-fluid">
                 <div class="category-content position-absolute bottom-0 p-5 text-uppercase">
                   <h4 class="section-title text-white"><b>Comedores</b></h4>
-                  <a href="/" class="text-white btn-link">Adquiera Hoy</a>
+                  <a href="/catalogo" class="text-white btn-link">Adquiera Hoy</a>
                 </div>
               </div>
             </div>
@@ -383,7 +373,7 @@
                 <img src="images/Sillones.jpg" alt="categories" class="jarallax-img img-fluid">
                 <div class="category-content position-absolute bottom-0 p-5 text-uppercase">
                   <h4 class="section-title text-white"><b>Sillones</b></h4>
-                  <a href="/" class="text-white btn-link">Adquiera Hoy</a>
+                  <a href="/catalogo" class="text-white btn-link">Adquiera Hoy</a>
                 </div>
               </div>
             </div>
@@ -520,7 +510,7 @@
       var swiper = new Swiper(".slideshow", {
         autoplay: {
           delay: 4000,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         },
         slidesPerView: col,
         spaceBetween: space,
