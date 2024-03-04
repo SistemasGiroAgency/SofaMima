@@ -24,6 +24,12 @@
 </head>
 
 <style>
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
   .nav-link{
     color: white;
   }
@@ -55,9 +61,11 @@
   }
 
   .palabrasmain h2{
-    height: 15vh;
     color: #141722;
-    font-size: 9vh;
+    font-size: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .palabrasmain p{
@@ -266,7 +274,7 @@
                       <div class="container" style="max-width: fit-content">
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
-                            <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Elegancia Duradera</h2>
+                            <h2 class="roboto-bold text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Elegancia Duradera</h2>
                             <p class="caption responsivep">Combina tendencias contemporáneas con la resistencia del tiempo, asegurando que cada pieza sea tan atemporal como sofisticada.</p>
                             <a href="/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
                           </div>
@@ -280,8 +288,8 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
-                            <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Confort en cada detalle.</h2>
-                            <p class="caption responsivep">Selección meticulosa de materiales de alta calidad, diseño enfocado en el confort, para una experiencia de lujo.</p>
+                            <h2 class="roboto-bold text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Confort en cada detalle</h2>
+                            <p class="caption responsivep">Selección meticulosa de materiales de alta calidad, diseño enfocado en el confort, <br> para una experiencia de lujo.</p>
                             <a href="/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
                           </div>
                         </div>
@@ -294,8 +302,8 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
-                            <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Diseños Únicos</h2>
-                            <p class="caption responsivep">Cada proyecto es una obra de arte, diseñado para crear espacios únicos y reflejar tu personalidad.</p>
+                            <h2 class="roboto-bold text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Diseños Únicos</h2>
+                            <p class="caption responsivep">Cada proyecto es una obra de arte, <br> diseñado para crear espacios únicos y reflejar tu personalidad.</p>
                             <a href="/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
                           </div>
                         </div>
