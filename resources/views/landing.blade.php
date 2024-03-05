@@ -63,9 +63,6 @@
   .palabrasmain h2{
     color: #141722;
     font-size: 6vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .palabrasmain p{
@@ -134,10 +131,45 @@
     margin: auto;
   }
 
+  .btn-salas{
+    background-color: transparent;
+    border-radius: var(--bs-border-radius-lg)!important;
+    border: 1px solid white;
+    margin: 0;
+    padding: .5vh;
+    color: white;
+    font-size: 2.3vh;
+    transition: 0.5s !important
+  }
+
+  .btn-salas:hover{
+    color: white;
+    border: 1px solid #141722;
+    background-color: #141722;
+  }
+
+  .boxsalas{
+    position: relative; 
+    top:25vh; 
+    left:2vw;
+  }
+
   @media only screen and (max-width: 992px){
     .palabrasmain{
       text-align: initial;
       position: static; 
+    }
+
+    .boxsalas{
+      margin-top: 1vh; 
+      position: initial;
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .palabrasmain h2{
+      font-size: 5vh;
     }
   }
 </style>
@@ -229,7 +261,7 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5 pe-3">
             <li class="nav-item">
-              <a class="nav-link" href="/">Página Principal</a>
+              <a class="nav-link" href="/">Visita nuestra página principal</a>
             </li>
           </ul>
         </div>
@@ -246,17 +278,17 @@
                   <div class="swiper-slide d-flex align-items-center jarallax">
                     <img src="{{asset('images/Slider 1.jpg')}}" class="jarallax-img" alt="slideshow">
                     <div class="banner-content w-100">
-                      <div class="container" style="max-width: fit-content">
+                      <div class="container">
                         <div class="row align-items-center justify-content-center">
                           <div class="col-md-10 offset-md-1 palabrasmain" style="margin: auto;">
                             <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2">Elegancia Duradera</h2></div>
-                            <p class="caption responsivep">Combina tendencias contemporáneas con la resistencia del tiempo, asegurando que cada pieza sea tan atemporal como sofisticada.</p>
-                            <a href="/3/singleproducts" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
+                            <p class="caption responsivep">Combina tendencias contemporáneas con la resistencia del tiempo, <br> asegurando que cada pieza sea tan atemporal como sofisticada.</p>
+                            <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Visita nuestro catálogo</a>
                           </div>
                         </div>
                         <div class="row d-flex align-items-end justify-content-initial">
-                          <div class="col-4" style="position: relative; top:25vh; left:2vw;">
-                            <h2 class="roboto-bold text-uppercase txt-fx slide-up">Sala Modulos</h2>
+                          <div class="col-4 boxsalas">
+                            <a href="/3/singleproducts" class="btn btn-salas text-uppercase rounded-3 px-4 py-3">sala modulos</a>
                           </div>
                         </div>
                       </div>
@@ -270,12 +302,12 @@
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Confort en cada detalle</div></h2></div>
                             <p class="caption responsivep">Selección meticulosa de materiales de alta calidad, diseño enfocado en el confort, <br> para una experiencia de lujo.</p>
-                            <a href="/1/singleproducts" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
+                            <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Visita nuestro catálogo</a>
                           </div>
                         </div>
                         <div class="row d-flex align-items-end justify-content-initial">
-                          <div class="col-4" style="position: relative; top:25vh; left:2vw;">
-                            <h2 class="roboto-bold text-uppercase txt-fx slide-up">Sala Córdoba</h2>
+                          <div class="col-4 boxsalas">
+                            <a href="/1/singleproducts" class="btn btn-salas text-uppercase rounded-3 px-4 py-3">Sala Córdoba</a>
                           </div>
                         </div>
                       </div>
@@ -289,12 +321,12 @@
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Diseños Únicos</div></h2></div>
                             <p class="caption responsivep">Cada proyecto es una obra de arte, <br> diseñado para crear espacios únicos y reflejar tu personalidad.</p>
-                            <a href="/5/singleproducts" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Adquierela hoy</a>
+                            <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Visita nuestro catálogo</a>
                           </div>
                         </div>
                         <div class="row d-flex align-items-end justify-content-initial">
-                          <div class="col-4" style="position: relative; top:25vh; left:2vw;">
-                            <h2 class="roboto-bold text-uppercase txt-fx slide-up" style="color: white">Sala Torreón</h2>
+                          <div class="col-4 boxsalas">
+                            <a href="/5/singleproducts" class="btn btn-salas text-uppercase rounded-3 px-4 py-3">Sala Torreón</a>
                           </div>
                         </div>
                       </div>
@@ -306,8 +338,8 @@
             </div>
             <div class="col-lg-4 col-12 d-flex align-items-center justify-content-center" style="padding-left: 2vw; padding-right:2vw;">
                 <div class="inquiry-item col-md-12 forms">
-                    <h2><b>Hablemos de Elegancia</b></h2>
-                    <p>Contacta con nosotros y da el primer paso para crear el espacio de tus sueños.</p>
+                    <h2><b>Encuentra la sala de tus sueños</b></h2>
+                    <p>Completa tus datos y obtén acceso exclusivo a nuestras ofertas.</p>
                     <form action="{{url('correolanding')}}" method="POST" role="form" class="php-email-form">
                         @csrf
                         <div class="form-input col-lg-12 d-flex mb-3">
@@ -510,7 +542,7 @@
       var swiper = new Swiper(".slideshow", {
         autoplay: {
           delay: 4000,
-          disableOnInteraction: true,
+          disableOnInteraction: false,
         },
         slidesPerView: col,
         spaceBetween: space,

@@ -211,8 +211,8 @@
           </div>
         </div>
         <div class="inquiry-item col-md-6">
-          <h2><b>Hablemos de Elegancia</b></h2>
-          <p>Contacta con nosotros y da el primer paso para crear el espacio de tus sueños.</p>
+          <h2><b>Encuentra la sala de tus sueños</b></h2>
+          <p>Completa tus datos y obtén acceso exclusivo a nuestras ofertas.</p>
           <form action="{{url('correo')}}" class="form-group flex-wrap" method="POST">
             @csrf
             <div class="form-input col-lg-12 d-flex mb-3">
