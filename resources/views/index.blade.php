@@ -309,7 +309,7 @@
                 <div class="col-md-10 offset-md-1 palabrasmain">
                   <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Comfort en cada detalle</div></h2></div>
                   <p class="caption responsivep">Ve nuestras exclusivas salas y elige tu favorita.</p>
-                  <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
+                  <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Visita nuestro catálogo</a>
                 </div>
               </div>
               <div class="row d-flex align-items-end justify-content-initial">
@@ -328,7 +328,7 @@
                 <div class="col-md-10 offset-md-1 palabrasmain">
                   <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Salas que hablan de ti</div></h2></div>
                   <p class="caption responsivep">Visita nuestro catálogo y compra ahora.</p>
-                  <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
+                  <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Visita nuestro catálogo</a>
                 </div>
               </div>
               <div class="row d-flex align-items-end justify-content-initial">
@@ -347,7 +347,7 @@
                 <div class="col-md-10 offset-md-1 palabrasmain">
                   <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Diseños Únicos</div></h2></div>
                   <p class="caption responsivep">Navega por nuestra colección y selecciona la tuya.</p>
-                  <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
+                  <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Visita nuestro catálogo</a>
                 </div>
               </div>
               <div class="row d-flex align-items-end justify-content-initial">
