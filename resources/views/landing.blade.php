@@ -165,11 +165,28 @@
       position: initial;
       width: 100%;
     }
+
+    .responsiveheight{
+      position: relative;
+      bottom: 20vh;
+    }
+
+    .btn-salas{
+      border: 1px solid #141722;
+      color: #141722;
+      font-size: initial;
+    }
   }
 
   @media (min-width: 1025px) {
     .palabrasmain h2{
       font-size: 5vh;
+    }
+  }
+
+  @media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+      max-width: 100%;
     }
   }
 </style>
@@ -270,7 +287,7 @@
   </nav>
 
   <section>
-    <div class="container-fluid" style="padding-left: 0">
+    <div class="container-fluid p-0">
         <div class="row">
             <div class="col-lg-8 col-12 p-0">
               <div class="slideshow slide-in arrow-absolute" style="height: 100vh;">
@@ -278,16 +295,16 @@
                   <div class="swiper-slide d-flex align-items-center jarallax">
                     <img src="{{asset('images/Slider 1.jpg')}}" class="jarallax-img" alt="slideshow">
                     <div class="banner-content w-100">
-                      <div class="container">
+                      <div class="container responsiveheight">
                         <div class="row align-items-center justify-content-center">
                           <div class="col-md-10 offset-md-1 palabrasmain" style="margin: auto;">
-                            <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2">Confort en cada detalle</h2></div>
+                            <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2">Calidad y detalle</h2></div>
                             <p class="caption responsivep">Ve nuestras exclusivas salas y elige tu favorita.</p>
                             <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Visita nuestro catálogo</a>
                           </div>
                         </div>
                         <div class="row d-flex align-items-end justify-content-initial">
-                          <div class="col-4 boxsalas">
+                          <div class="col-12 offset-md-1 boxsalas">
                             <a href="/3/singleproducts" class="btn btn-salas text-uppercase rounded-3 px-4 py-3">sala modulos</a>
                           </div>
                         </div>
@@ -297,7 +314,7 @@
                   <div class="swiper-slide d-flex align-items-center jarallax">
                     <img src="{{asset('images/Slider 2.jpg')}}" class="jarallax-img" alt="slideshow">
                     <div class="banner-content w-100">
-                      <div class="container">
+                      <div class="container responsiveheight">
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Salas que hablan de ti</div></h2></div>
@@ -306,7 +323,7 @@
                           </div>
                         </div>
                         <div class="row d-flex align-items-end justify-content-initial">
-                          <div class="col-4 boxsalas">
+                          <div class="col-12 offset-md-1 boxsalas">
                             <a href="/1/singleproducts" class="btn btn-salas text-uppercase rounded-3 px-4 py-3">Sala Córdoba</a>
                           </div>
                         </div>
@@ -316,16 +333,16 @@
                   <div class="swiper-slide d-flex align-items-center jarallax">
                     <img src="{{asset('images/Slider 3.jpg')}}" class="jarallax-img" alt="slideshow">
                     <div class="banner-content w-100">
-                      <div class="container">
+                      <div class="container responsiveheight">
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
-                            <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Diseños Únicos</div></h2></div>
+                            <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Diseños que enamoran</div></h2></div>
                             <p class="caption responsivep">Navega por nuestra colección y selecciona la tuya.</p>
                             <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Visita nuestro catálogo</a>
                           </div>
                         </div>
                         <div class="row d-flex align-items-end justify-content-initial">
-                          <div class="col-4 boxsalas">
+                          <div class="col-12 offset-md-1 boxsalas">
                             <a href="/5/singleproducts" class="btn btn-salas text-uppercase rounded-3 px-4 py-3">Sala Torreón</a>
                           </div>
                         </div>
