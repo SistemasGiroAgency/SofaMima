@@ -300,7 +300,7 @@
                           <div class="col-md-10 offset-md-1 palabrasmain" style="margin: auto;">
                             <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2">Calidad y detalle</h2></div>
                             <p class="caption responsivep">Ve nuestras exclusivas salas y elige tu favorita.</p>
-                            <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Visita nuestro catálogo</a>
+                            <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Visita nuestro catálogo</a>
                           </div>
                         </div>
                         <div class="row d-flex align-items-end justify-content-initial">
@@ -317,9 +317,9 @@
                       <div class="container responsiveheight">
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
-                            <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Salas que hablan de ti</div></h2></div>
-                            <p class="caption responsivep">Visita nuestro catálogo y compra ahora</p>
-                            <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Visita nuestro catálogo</a>
+                            <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Estilo que impresiona</div></h2></div>
+                            <p class="caption responsivep">Descubre la sala que transformará tu hogar.</p>
+                            <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Visita nuestro catálogo</a>
                           </div>
                         </div>
                         <div class="row d-flex align-items-end justify-content-initial">
@@ -337,8 +337,8 @@
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Diseños que enamoran</div></h2></div>
-                            <p class="caption responsivep">Navega por nuestra colección y selecciona la tuya.</p>
-                            <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Visita nuestro catálogo</a>
+                            <p class="caption responsivep">Navega por nuestra colección y seleccionala.</p>
+                            <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Visita nuestro catálogo</a>
                           </div>
                         </div>
                         <div class="row d-flex align-items-end justify-content-initial">

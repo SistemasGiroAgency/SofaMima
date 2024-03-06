@@ -1510,7 +1510,7 @@ a.btn-link.text-light:after {
  /* Estilos mas detallados de la pagina en responsive */
 @media only screen and (max-width: 992px) {
   .responsiveh2{
-    font-size: 6vh !important;
+    font-size: 5vh !important;
     margin-top: 0 !important;
     padding-top: 0 !important;
   }
