@@ -281,8 +281,8 @@
                       <div class="container">
                         <div class="row align-items-center justify-content-center">
                           <div class="col-md-10 offset-md-1 palabrasmain" style="margin: auto;">
-                            <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2">Elegancia Duradera</h2></div>
-                            <p class="caption responsivep">Combina tendencias contemporáneas con la resistencia del tiempo, <br> asegurando que cada pieza sea tan atemporal como sofisticada.</p>
+                            <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2">Confort en cada detalle</h2></div>
+                            <p class="caption responsivep">Ve nuestras exclusivas salas y elige tu favorita.</p>
                             <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Visita nuestro catálogo</a>
                           </div>
                         </div>
@@ -300,8 +300,8 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
-                            <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Confort en cada detalle</div></h2></div>
-                            <p class="caption responsivep">Selección meticulosa de materiales de alta calidad, diseño enfocado en el confort, <br> para una experiencia de lujo.</p>
+                            <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Salas que hablan de ti</div></h2></div>
+                            <p class="caption responsivep">Visita nuestro catálogo y compra ahora</p>
                             <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Visita nuestro catálogo</a>
                           </div>
                         </div>
@@ -320,7 +320,7 @@
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <div class="d-flex align-items-center justify-content-center mt-5 pt-5"><h2 class="roboto-bold text-uppercase txt-fx slide-up responsiveh2"><div>Diseños Únicos</div></h2></div>
-                            <p class="caption responsivep">Cada proyecto es una obra de arte, <br> diseñado para crear espacios únicos y reflejar tu personalidad.</p>
+                            <p class="caption responsivep">Navega por nuestra colección y selecciona la tuya.</p>
                             <a href="/catalogo" class="btn btn-mio text-uppercase rounded-3 px-4 py-3">Visita nuestro catálogo</a>
                           </div>
                         </div>
