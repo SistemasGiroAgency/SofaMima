@@ -149,7 +149,7 @@
   .boxsalas{
     position: relative; 
     top:25vh; 
-    left:2vw;
+    margin: 0;
   }
 
   @media only screen and (max-width: 992px){
@@ -313,7 +313,7 @@
     <div class="slideshow slide-in arrow-absolute" style="height: 100vh;">
       <div class="swiper-wrapper">
         <div class="swiper-slide d-flex align-items-center jarallax">
-          <img src="images/Slider 2.jpg" class="jarallax-img" alt="slideshow">
+          <img src="images/Slider 1.jpg" class="jarallax-img" alt="slideshow">
           <div class="banner-content w-100">
             <div class="container responsiveheight">
               <div class="row">
@@ -325,7 +325,7 @@
               </div>
               <div class="row d-flex align-items-end justify-content-initial">
                 <div class="col-12 offset-md-1 boxsalas">
-                  <a href="/3/singleproducts" class="btn btn-salas text-uppercase rounded-3 px-4 py-3">Sala modulos</a>
+                  <a href="/3/singleproducts" class="btn btn-salas text-uppercase rounded-3 px-4 py-3 m-0">Sala modulos</a>
                 </div>
               </div>
             </div>
@@ -344,7 +344,7 @@
               </div>
               <div class="row d-flex align-items-end justify-content-initial">
                 <div class="col-12 offset-md-1 boxsalas">
-                  <a href="/1/singleproducts" class="btn btn-salas text-uppercase rounded-3 px-4 py-3">Sala Córdoba</a>
+                  <a href="/1/singleproducts" class="btn btn-salas text-uppercase rounded-3 px-4 py-3 m-0">Sala Córdoba</a>
                 </div>
               </div>
             </div>
@@ -363,7 +363,7 @@
               </div>
               <div class="row d-flex align-items-end justify-content-initial">
                 <div class="col-12 offset-md-1 boxsalas">
-                  <a href="/5/singleproducts" class="btn btn-salas text-uppercase rounded-3 px-4 py-3">Sala Torreón</a>
+                  <a href="/5/singleproducts" class="btn btn-salas text-uppercase rounded-3 px-4 py-3 m-0">Sala Torreón</a>
                 </div>
               </div>
             </div>

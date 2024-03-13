@@ -10,7 +10,7 @@ class Admin extends Controller
 {
     public function secciondeproductos()
     {
-        $catalogo = Catalogo::all();
+        $catalogo = Catalogo::paginate(2);
         $data = [
             'catalogo'=>$catalogo
         ];

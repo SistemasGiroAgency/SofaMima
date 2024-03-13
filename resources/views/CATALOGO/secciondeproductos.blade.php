@@ -1,11 +1,9 @@
-<style>
-    table, th, td{
-        border: 1px solid black;
-    }
-</style>
-
-<a href="{{route('CATALOGO.createdos')}}">Crear</a>
-<table>
+@extends('PLANTILLA.template')
+@section('contenido')
+<hr>
+<a href="{{route('CATALOGO.createdos')}}" class="btn btn-primary">Crear</a>
+<hr>
+<table class="table">
     <thead>
         <th>id</th>
         <th>Nombre</th>
@@ -33,8 +31,8 @@
                 <td>{{$catalogos->categoria}}</td>
                 <td>{{$catalogos->color}}</td>
                 <td>{{$catalogos->material}}</td>
-                <td>{{$catalogos->descripcion}}</td>
-                <td>{{$catalogos->infoadicional}}</td>
+                <td class="textocortado">{{$catalogos->descripcion}}</td>
+                <td class="textocortado">{{$catalogos->infoadicional}}</td>
                 <td>{{$catalogos->imguno}}</td>
                 <td>{{$catalogos->imgdos}}</td>
                 <td>{{$catalogos->imgtres}}</td>
@@ -45,15 +43,42 @@
                 <td>{{$catalogos->imgocho}}</td>
                 <td>{{$catalogos->imgnueve}}</td>
                 <td>{{$catalogos->imgdiez}}</td>
-                <td>
-                    <a href="{{route('CATALOGO.editdos', $catalogos->id)}}">Editar</a>
+                <td class="btn-group">
+                    <a href="{{route('CATALOGO.editdos', $catalogos->id)}}" class="btn btn-warning">Editar</a>
                     <form action="{{route('CATALOGO.destroydos', $catalogos->id)}}" method="POST">
                         @csrf
                         @method('DELETE')
-                        <input type="submit" value="Eliminar">
+                        <input type="submit" value="Eliminar" class="btn btn-danger">
                     </form>
                 </td>
             </tr>
         @endforeach
     </tbody>
+    <tfoot>
+        <td colspan="4"> {{$catalogo->links()}}</td>
+    </tfoot>
 </table>
+
+<script src="{{asset('js/jquery.min.js')}}"></script>
+
+<script>
+    $(document).ready(function() {
+      function cortarTexto(texto) {
+          var maxPalabras = 13;
+          var palabras = texto.split(" ");
+          if (palabras.length > maxPalabras) {
+              return palabras.slice(0, maxPalabras).join(" ") + "...";
+          } else {
+              return texto;
+          }
+      }
+
+      $('.textocortado').each(function() {
+          var texto = $(this).text();
+          var textoCortado = cortarTexto(texto);
+          $(this).text(textoCortado);
+      });
+    }); 
+</script>
+
+@endsection
