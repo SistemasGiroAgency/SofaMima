@@ -190,6 +190,125 @@
 </style>
 
 <body class="homepage">
+
+  <style>
+    #web{
+      display: block;
+    }
+
+    #responsive{
+      display: none;
+    }
+
+    .conteiner-wha{
+      margin: 0;
+      padding: 1%;
+      position: absolute;
+      background-color: transparent;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: end;
+      justify-content: end;
+    }
+
+    .btn-wha{
+      border: 2px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 17vw;
+      height: 6vh;
+      background-color: #122938;
+      z-index: 999;
+      border-radius: 35px;
+      color: white;
+    }
+
+    .punto{
+      background-color: #55cd6c;
+      width: 1vh;
+      height: 1vh;
+      border-radius: 100%;
+      animation-name: parpadeo; 
+      animation-duration: .5s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes parpadeo{
+      0%{
+        opacity: 1;
+      }
+      50%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 992px){
+      #web{
+        display: none;
+      }
+
+      #responsive{
+        display: block;
+      }
+
+      .conteiner-wha{
+        justify-content: center;
+        align-items: end;
+      }
+
+      .btn-wha{
+        width: 77vw;
+      }
+    }
+  </style>
+
+  <section id="web">
+    <a href="https://wa.me/8124282187">
+      <div class="conteiner-wha">
+          <button class="btn-wha" id="position">
+              <div class="container m-0 p-0">
+                <div class="row">
+                  <div class="col-2 p-0 d-flex align-items-center justify-content-end">
+                    <img src="images/whatsapp.png" alt="">
+                  </div>
+                  <div class="col-9 p-0 d-flex align-items-center justify-content-center">
+                    <p class="m-0">Envianos un mensaje</p>
+                  </div>
+                  <div class="col-1 p-0 d-flex align-items-center justify-content-initial">
+                    <div class="punto"></div>
+                  </div>
+                </div>
+              </div>
+          </button>
+      </div>
+    </a>
+  </section>
+
+  <section id="responsive">
+    <div class="conteiner-wha">
+      <button class="btn-wha" style="position: fixed">
+        <div class="container m-0 p-0">
+          <div class="row">
+            <div class="col-2 p-0 d-flex align-items-center justify-content-end">
+              <img src="images/whatsapp.png" alt="">
+            </div>
+            <div class="col-9 p-0 d-flex align-items-center justify-content-center">
+              <p class="m-0">Envianos un mensaje</p>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center justify-content-initial">
+              <div class="punto"></div>
+            </div>
+          </div>
+        </div>
+      </button>
+    </div>
+  </section>
+
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <defs>
       <symbol xmlns="http://www.w3.org/2000/svg" id="dribble" viewBox="0 0 15 15">
@@ -302,6 +421,32 @@
                   <a href="/faqs" class="dropdown-item item-anchor">Preguntas F.</a>
                 </li>
               </ul>
+            </li>
+            <li class="nav-item d-flex align-items-center justify-content-center">
+              <div class="social-links nav-link">
+                <ul class="list-unstyled d-flex flex-wrap gap-3">
+                  <li>
+                    <a href="https://www.facebook.com/Mueblesmima/" class="text-secondary">
+                      <img width="24" height="24" viewBox="0 0 24 24" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGQ9Ik0yNCAxMi4wNzNjMCA1Ljk4OS00LjM5NCAxMC45NTQtMTAuMTMgMTEuODU1di04LjM2M2gyLjc4OWwuNTMxLTMuNDZoLTMuMzJWOS44NmMwLS45NDcuNDY0LTEuODY5IDEuOTUtMS44NjloMS41MDlWNS4wNDVzLTEuMzctLjIzNC0yLjY3OS0uMjM0Yy0yLjczNCAwLTQuNTIgMS42NTctNC41MiA0LjY1NnYyLjYzN0g3LjA5MXYzLjQ2aDMuMDM5djguMzYzQzQuMzk1IDIzLjAyNSAwIDE4LjA2MSAwIDEyLjA3M2MwLTYuNjI3IDUuMzczLTEyIDEyLTEyczEyIDUuMzcyIDEyIDEyeiIgZmlsbD0iIzZjNzU3ZCIgb3BhY2l0eT0iMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCI+PC9wYXRoPjwvZz48L3N2Zz4=" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/sofamima/?hl=es-la" class="text-secondary">
+                      <img width="24" height="24" viewBox="0 0 24 24" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGQ9Ik0xMiAyLjE2MmMzLjIwNCAwIDMuNTg0LjAxMiA0Ljg0OS4wNyAxLjMwOC4wNiAyLjY1NS4zNTggMy42MDggMS4zMTEuOTYyLjk2MiAxLjI1MSAyLjI5NiAxLjMxMSAzLjYwOC4wNTggMS4yNjUuMDcgMS42NDUuMDcgNC44NDlzLS4wMTIgMy41ODQtLjA3IDQuODQ5Yy0uMDU5IDEuMzAxLS4zNjQgMi42NjEtMS4zMTEgMy42MDgtLjk2Mi45NjItMi4yOTUgMS4yNTEtMy42MDggMS4zMTEtMS4yNjUuMDU4LTEuNjQ1LjA3LTQuODQ5LjA3cy0zLjU4NC0uMDEyLTQuODQ5LS4wN2MtMS4yOTEtLjA1OS0yLjY2OS0uMzcxLTMuNjA4LTEuMzExLS45NTctLjk1Ny0xLjI1MS0yLjMwNC0xLjMxMS0zLjYwOC0uMDU4LTEuMjY1LS4wNy0xLjY0NS0uMDctNC44NDlzLjAxMi0zLjU4NC4wNy00Ljg0OWMuMDU5LTEuMjk2LjM2Ny0yLjY2NCAxLjMxMS0zLjYwOC45Ni0uOTYgMi4yOTktMS4yNTEgMy42MDgtMS4zMTEgMS4yNjUtLjA1OCAxLjY0NS0uMDcgNC44NDktLjA3TTEyIDBDOC43NDEgMCA4LjMzMi4wMTQgNy4wNTIuMDcyIDUuMTk3LjE1NyAzLjM1NS42NzMgMi4wMTQgMi4wMTQuNjY4IDMuMzYuMTU3IDUuMTk4LjA3MiA3LjA1Mi4wMTQgOC4zMzIgMCA4Ljc0MSAwIDEyYzAgMy4yNTkuMDE0IDMuNjY4LjA3MiA0Ljk0OC4wODUgMS44NTMuNjAzIDMuNyAxLjk0MiA1LjAzOCAxLjM0NSAxLjM0NSAzLjE4NiAxLjg1NyA1LjAzOCAxLjk0MkM4LjMzMiAyMy45ODYgOC43NDEgMjQgMTIgMjRjMy4yNTkgMCAzLjY2OC0uMDE0IDQuOTQ4LS4wNzIgMS44NTQtLjA4NSAzLjY5OC0uNjAyIDUuMDM4LTEuOTQyIDEuMzQ3LTEuMzQ3IDEuODU3LTMuMTg0IDEuOTQyLTUuMDM4LjA1OC0xLjI4LjA3Mi0xLjY4OS4wNzItNC45NDggMC0zLjI1OS0uMDE0LTMuNjY4LS4wNzItNC45NDgtLjA4NS0xLjg1NS0uNjAyLTMuNjk4LTEuOTQyLTUuMDM4QzIwLjY0My42NzEgMTguNzk3LjE1NiAxNi45NDguMDcyIDE1LjY2OC4wMTQgMTUuMjU5IDAgMTIgMHoiIGZpbGw9IiM2Yzc1N2QiIG9wYWNpdHk9IjEiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiPjwvcGF0aD48cGF0aCBkPSJNMTIgNS44MzhhNi4xNjIgNi4xNjIgMCAxIDAgMCAxMi4zMjQgNi4xNjIgNi4xNjIgMCAwIDAgMC0xMi4zMjR6TTEyIDE2YTQgNCAwIDEgMSAwLTggNCA0IDAgMCAxIDAgOHoiIGZpbGw9IiM2Yzc1N2QiIG9wYWNpdHk9IjEiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiPjwvcGF0aD48Y2lyY2xlIGN4PSIxOC40MDYiIGN5PSI1LjU5NCIgcj0iMS40NCIgZmlsbD0iIzZjNzU3ZCIgb3BhY2l0eT0iMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCI+PC9jaXJjbGU+PC9nPjwvc3ZnPg==" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/@SofaMima" class="text-secondary">
+                      <img width="24" height="24" viewBox="0 0 24 24"   src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGQ9Ik0yMy40OTggNi4xODZhMy4wMTYgMy4wMTYgMCAwIDAtMi4xMjItMi4xMzZDMTkuNTA1IDMuNTQ2IDEyIDMuNTQ2IDEyIDMuNTQ2cy03LjUwNSAwLTkuMzc3LjUwNEEzLjAxNSAzLjAxNSAwIDAgMCAuNTAyIDYuMTg2QzAgOC4wNyAwIDEyIDAgMTJzMCAzLjkzLjUwMiA1LjgxNGEzLjAxNiAzLjAxNiAwIDAgMCAyLjEyMiAyLjEzNmMxLjg3MS41MDQgOS4zNzYuNTA0IDkuMzc2LjUwNHM3LjUwNSAwIDkuMzc3LS41MDRhMy4wMTggMy4wMTggMCAwIDAgMi4xMjItMi4xMzZDMjQgMTUuOTMgMjQgMTIgMjQgMTJzMC0zLjkzLS41MDItNS44MTR6TTkuNTQ2IDE1LjU2OVY4LjQzMUwxNS44MTggMTJsLTYuMjcyIDMuNTY5eiIgZmlsbD0iIzZjNzU3ZCIgb3BhY2l0eT0iMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCI+PC9wYXRoPjwvZz48L3N2Zz4=" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.tiktok.com/@mueblesmima?_t=8kP3vdtLciU&_r=1" class="text-secondary">
+                      <img width="24" height="24" viewBox="0 0 24 24" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxwYXRoIGQ9Ik0yMi40NjUgOS44NjZhOS44MDkgOS44MDkgMCAwIDEtNS43NC0xLjg0NnY4LjM4NWMwIDQuMTg4LTMuNDA3IDcuNTk0LTcuNTk0IDcuNTk0YTcuNTQ4IDcuNTQ4IDAgMCAxLTQuMzUyLTEuMzc2IDcuNTkgNy41OSAwIDAgMS0zLjI0Mi02LjIxOGMwLTQuMTg4IDMuNDA3LTcuNTk1IDcuNTk1LTcuNTk1LjM0OCAwIC42ODguMDI5IDEuMDIzLjA3NHY0LjIxMmEzLjQyNiAzLjQyNiAwIDAgMC0xLjAyMy0uMTYgMy40NzIgMy40NzIgMCAwIDAtMy40NjggMy40NjkgMy40NyAzLjQ3IDAgMCAwIDMuNDY5IDMuNDY4IDMuNDcgMy40NyAwIDAgMCAzLjQ2Mi0zLjMzOEwxMi41OTggMGg0LjEyNmE1Ljc1MiA1Ljc1MiAwIDAgMCA1Ljc0IDUuNzQxdjQuMTI1eiIgZmlsbD0iIzZjNzU3ZCIgb3BhY2l0eT0iMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9IiI+PC9wYXRoPjwvZz48L3N2Zz4=" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
@@ -1044,6 +1189,23 @@
 
     toggleClassOnResize();
     window.addEventListener('resize', toggleClassOnResize);
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      const elemento = document.getElementById('position');
+      const puntoDeScroll = 6750;
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= puntoDeScroll) {
+          elemento.style.position = 'relative';
+          elemento.style.top = `${puntoDeScroll}px`;
+        } else if (window.scrollY < puntoDeScroll){
+          elemento.style.position = 'fixed';
+          elemento.style.top = `auto`;
+        }
+      });
+    });
   </script>
 
 </body>
